@@ -1,0 +1,143 @@
+[
+  {
+    "_id": { "$oid": "64a1f2c3e4b0a1b2c3d4e5f6" },
+    "category": "Electronics",
+    "name": "Samsung Galaxy S24 Ultra",
+    "brand": "Samsung",
+    "sku": "ELEC-SAM-S24U-256",
+    "price": 124999,
+    "currency": "INR",
+    "stock": 45,
+    "specifications": {
+      "display": {
+        "size_inches": 6.8,
+        "type": "Dynamic AMOLED 2X",
+        "resolution": "3088x1440"
+      },
+      "battery": {
+        "capacity_mah": 5000,
+        "fast_charging_watts": 45,
+        "wireless_charging": true
+      },
+      "storage_gb": 256,
+      "ram_gb": 12,
+      "voltage": "5V/9V/12V",
+      "connectivity": ["5G", "Wi-Fi 6E", "Bluetooth 5.3", "NFC", "USB-C 3.2"]
+    },
+    "warranty": {
+      "duration_months": 12,
+      "type": "Manufacturer Warranty",
+      "covers": ["manufacturing defects", "hardware failure"],
+      "excludes": ["physical damage", "water damage"]
+    },
+    "ratings": {
+      "average": 4.7,
+      "total_reviews": 2341
+    },
+    "images": [
+      "https://cdn.store.com/products/s24ultra_front.jpg",
+      "https://cdn.store.com/products/s24ultra_back.jpg"
+    ],
+    "tags": ["smartphone", "5G", "flagship", "android"],
+    "created_at": { "$date": "2024-02-01T00:00:00Z" },
+    "updated_at": { "$date": "2024-11-15T10:30:00Z" }
+  },
+
+  {
+    "_id": { "$oid": "64a1f2c3e4b0a1b2c3d4e5f7" },
+    "category": "Clothing",
+    "name": "Men's Slim Fit Formal Shirt",
+    "brand": "Arrow",
+    "sku": "CLTH-ARR-SHIRT-BLU-M",
+    "price": 1799,
+    "currency": "INR",
+    "stock": 120,
+    "specifications": {
+      "material": "100% Cotton",
+      "fit": "Slim Fit",
+      "collar": "Spread Collar",
+      "sleeve": "Full Sleeve",
+      "pattern": "Solid",
+      "care_instructions": [
+        "Machine wash cold",
+        "Do not bleach",
+        "Tumble dry low",
+        "Iron on medium heat"
+      ]
+    },
+    "variants": [
+      { "size": "S", "color": "Blue", "stock": 20 },
+      { "size": "M", "color": "Blue", "stock": 35 },
+      { "size": "L", "color": "Blue", "stock": 40 },
+      { "size": "XL", "color": "Blue", "stock": 25 },
+      { "size": "M", "color": "White", "stock": 30 },
+      { "size": "L", "color": "White", "stock": 28 }
+    ],
+    "size_chart": {
+      "S":  { "chest_cm": 91, "shoulder_cm": 42 },
+      "M":  { "chest_cm": 96, "shoulder_cm": 44 },
+      "L":  { "chest_cm": 101, "shoulder_cm": 46 },
+      "XL": { "chest_cm": 106, "shoulder_cm": 48 }
+    },
+    "ratings": {
+      "average": 4.3,
+      "total_reviews": 876
+    },
+    "images": [
+      "https://cdn.store.com/products/arrow_shirt_blue_front.jpg",
+      "https://cdn.store.com/products/arrow_shirt_blue_back.jpg"
+    ],
+    "tags": ["formal", "office wear", "cotton", "men"],
+    "created_at": { "$date": "2024-03-10T00:00:00Z" },
+    "updated_at": { "$date": "2024-10-22T08:45:00Z" }
+  },
+
+  {
+    "_id": { "$oid": "64a1f2c3e4b0a1b2c3d4e5f8" },
+    "category": "Groceries",
+    "name": "Amul Gold Full Cream Milk",
+    "brand": "Amul",
+    "sku": "GROC-AMUL-MILK-1L",
+    "price": 66,
+    "currency": "INR",
+    "stock": 500,
+    "specifications": {
+      "weight": "1 Litre",
+      "form": "Liquid",
+      "storage": "Refrigerate below 4°C after opening",
+      "shelf_life_days": 7
+    },
+    "expiry": {
+      "manufactured_date": { "$date": "2024-12-01T00:00:00Z" },
+      "best_before": { "$date": "2024-12-08T00:00:00Z" },
+      "use_by": { "$date": "2024-12-08T00:00:00Z" }
+    },
+    "nutritional_info": {
+      "serving_size_ml": 200,
+      "per_serving": {
+        "energy_kcal": 134,
+        "protein_g": 6.8,
+        "carbohydrates_g": 9.6,
+        "sugar_g": 9.6,
+        "fat_g": 8.0,
+        "saturated_fat_g": 5.2,
+        "calcium_mg": 240,
+        "sodium_mg": 80
+      }
+    },
+    "allergens": ["milk"],
+    "certifications": ["FSSAI", "ISO 9001:2015"],
+    "fssai_license": "10013021002731",
+    "country_of_origin": "India",
+    "ratings": {
+      "average": 4.6,
+      "total_reviews": 5120
+    },
+    "images": [
+      "https://cdn.store.com/products/amul_gold_milk_1l.jpg"
+    ],
+    "tags": ["dairy", "milk", "full cream", "amul", "fresh"],
+    "created_at": { "$date": "2024-11-28T06:00:00Z" },
+    "updated_at": { "$date": "2024-12-01T06:00:00Z" }
+  }
+]
